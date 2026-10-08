@@ -1,0 +1,21 @@
+{
+  "backend": "hnsw",
+  "degree": 32,
+  "beam": 400,
+  "alpha": 1.2,
+  "cells": 2048,
+  "partition_sample": 65536,
+  "metric": "l2",
+  "seed": 42,
+  "hops": 2,
+  "query_width": 100,
+  "cpu_fraction": 0.10,
+  "cores": 32,
+  "probe": 4096,
+  "scrub_key": "expunge-canonical-order-v1",
+  "inplace_width": 128,
+  "inplace_candidates": 50,
+  "inplace_copies": 3,
+  "spatch_r": 1.0,
+  "spatch_alpha": 1.2
+}
